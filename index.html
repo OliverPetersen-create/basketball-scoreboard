@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="team-home">
+            <h1>TEAM 1</h1>
+            <div class="teamScore-div">
+                <h2 class="team1Score">0</h2>
+            </div>
+            <div>
+                <button onclick="addPointsToTeam(0, 1)">+1</button>
+                <button onclick="addPointsToTeam(0, 2)">+2</button>
+                <button onclick="addPointsToTeam(0, 3)">+3</button>
+            </div>
+        </section>
+        <button onclick="newGame()">NEW GAME</button>
+        <section class="team-guest">
+            <h1>TEAM 2</h1>
+             <div class="teamScore-div">
+                <h2 class="team2Score">0</h2>
+            </div>
+            <div>
+                <button onclick="addPointsToTeam(1, 1)">+1</button>
+                <button onclick="addPointsToTeam(1, 2)">+2</button>
+                <button onclick="addPointsToTeam(1, 3)">+3</button>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
